@@ -1,6 +1,7 @@
 import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import XIcon from '@mui/icons-material/X';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Box, Typography } from "@mui/material";
@@ -42,7 +43,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             {" "}
-            <TwitterIcon />
+            <XIcon />
           </a>
           <a
             style={{ color: "white" }}
@@ -72,7 +73,7 @@ const Footer = () => {
           }}
         >
           All Rights Reserved <br></br>
-          <p style={{ fontSize: "16px" }}>Abhishek Anand</p>
+          <p style={{ fontSize: "16px" }}>&copy; Abhishek Anand</p>
         </Typography>
       </Box>
     </>
